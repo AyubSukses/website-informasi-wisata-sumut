@@ -1,0 +1,408 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+body {	
+	background-color: #F7F7F7;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+ul li a {
+	font-weight: 450;
+	letter-spacing: 1px;
+}
+nav ul li.active {
+	border-radius: 3px 3px;
+}
+
+nav ul li:hover {
+	background-color: #007BFF;
+	border-radius: 3px 3px;
+}
+
+header {
+	background-image: url('../img/bg-header.jpg');
+	background-size: cover;
+	margin-top: -100px;
+	height: 700px;
+	padding: 200px 0 100px;
+	font-weight: bolder;
+}
+
+header h3 {
+	font-size: 3em;
+	font-family: 'Lobster', cursive;
+}
+
+header p {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5em;
+}
+
+header .btn-Goexplore {
+	background-color: #007BFF;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 2px;
+	padding: 10px 21px;
+	border: 5px;
+}
+
+header .btn-Goexplore:hover {
+	background-color: #3d69c6;
+}
+
+.section-info-wisata {
+	margin-top: -150px !important;
+}
+
+.section-partner {
+	background-color: #F7FAFC;
+	margin-top: -300px !important;
+	height: 700px;
+	padding-top: 350px;	
+}
+.section-partner .description {
+	background-color: #102B4F;
+	height: 180px;
+	color: white;
+	border-radius: 10px;
+}
+
+
+.section-artikel {
+	margin-top: -100px;
+}
+
+.section-artikel .artikel-container {
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+.section-artikel .card {
+	background-color: #102B4F;
+	color: white;
+	min-height: 500px;
+}
+
+.section-fasilitas-umum {
+	margin-top: 49px;
+	height: 700px;
+	background-color: #102B4F;
+}
+
+.section-fasilitas-umum .card {
+	min-height: 560px;
+}
+
+.section-fasilitas-umum h2 {
+	padding: 30px 0;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.section-fasilitas-umum h4 {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.section-fasilitas-umum p {
+	font-weight: 20px;
+	color: black;
+}
+
+footer {
+	background-color: #102B4F;
+}
+
+footer p, h6 {
+	color: white;
+}
+
+footer ul li {
+	color: white;
+}
+
+.copyright {
+	height: 80px;
+	text-align: center;
+	background-color: #0D243A;
+	color: #8C99B2;
+	font-weight: bold;
+}
+
+
+
+/*info-wisata-details*/
+
+.header {
+	background-image: url('../img/samosir.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -100px;
+	padding: 240px 0 100px;
+	height: 650px;
+}
+
+.header h3 {
+	font-size: 36px;
+	letter-spacing: 2px;
+	font-family: 'Potta One', cursive;
+	color: white;
+}
+
+.header p {
+	font-size: 26px;
+	font-family: 'Times News Roman', serif;
+	letter-spacing: 2px;
+	color: white;
+}
+
+.header .btn-tour {
+	font-weight: bold;
+	padding: 10px 35px !important;
+	word-spacing: 2px;
+}
+
+
+.main-content-wisata {
+	background-color: #F9F9F9;
+	padding: 50px 5px;
+}
+
+.main-content-wisata .gambar-1 img {
+	min-height: 300px;
+}
+
+
+.main-content-wisata .description-wisata {
+	font-family: 'Playfair Display', serif;
+	margin-top: -80px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.main-content-wisata .description-wisata figcaption {
+	font-family: 'Potta One', cursive;
+	font-size: 28px;
+}
+
+.main-content-wisata .description-wisata h4 {
+	font-weight: bold;
+	font-size: 16px;
+}
+.banner-iklan-bus-bg {
+	background-color: green;
+	border-radius: 10px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.banner-iklan-bus-bg h3 {
+	font-family: 'Lobster', cursive;
+	font-size: 28px;
+}
+
+
+.section-testimonial {
+	background-color: #fff;
+	height: 450px;
+	padding: 30px 0;
+
+}
+
+.section-testimonial .gambar-alasan {
+	height: 150px;
+	width: 150px;
+	display: block;
+	text-align: center;
+	margin: 20px auto 15px;
+}
+
+
+
+.section-testimonial .card {
+	min-height: 300px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.login-container {
+	background-color:  #fff;
+	border-radius: 28px;
+	height: 400px;
+	width: 500px; 
+}
+
+
+.login-container h2 {
+	font-family: "fontello";
+	font-weight: bolder;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+.login-container table {
+	margin: 10px auto;
+	padding: 10px;
+}
+
+.login-container table tr td {
+	padding: 0 4px;
+}
+
+.login-container input[type=text] {
+	font-family: "fontello";
+	padding: 0px 4px;
+	border-radius: 5px 5px;
+	background-color: #fafafa;
+	width: 100%;
+}
+
+.login-container input[type=password] {
+	font-family: "fontello";
+	padding: 0px 4px;
+	border-radius: 5px 5px;
+	background-color: #fafafa;
+	width: 100%;
+}
+
+.login-container .btn-login {
+	font-family: "fontello";
+	width: 250px;
+	letter-spacing: 2px;
+}
+
+.register-container {
+	font-family: "fontello";
+	height: 540px;
+	width: 100%;
+	border-radius: 30px 30px;
+	background-color: #102B4F;
+}
+
+.container-register form {
+	height: 500px;
+	background-color: #fff;
+	padding: 20px 20px;
+	border-radius: 30px
+}
+
+.container-register form input {
+	width: 350px !important;
+	border-radius: 2px;
+	padding: 5px;
+}
+
+
+
+
+
+
+/*for mobile*/
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    background-color: #fff;
+  }
+
+  nav ul li:hover {
+	margin: 5px 5px;
+	padding: 5px 5px;
+}
+
+  header h3, p {
+  	text-align: center;
+  	margin-top: -70px;
+  	justify-content: center;
+  	color: #173F5F;
+  }
+
+  .section-info-wisata .card {
+  	margin-top: 10px;
+  }
+
+  .section-info-wisata .card h5, p {
+  	margin: 5px 10px;
+  	text-align: justify;
+}
+
+	.section-partner {
+		height: 700px;
+	}
+
+	.section-partner p {
+		color: white;
+	}
+
+	.header h3 {
+		margin-top: -70px;
+		font-size: 1.5em;
+	}
+
+	.header p {
+		text-align: center;
+		font-size: 1.5em;
+	}
+
+	.main-content-wisata .description-wisata figcaption {
+		font-size: 16px;
+}
+
+	.main-content-wisata .gambar-1 img {
+		min-height: 200px;
+		margin: 15px auto;
+	}
+
+	.section-artikel .card {
+		margin: 10px;
+	}
+
+	.section-fasilitas-umum {
+		height: 1900px;
+	}
+
+	.section-fasilitas-umum .card {
+	}	
+
+	.section-testimonial {
+	background-color: #fff;
+	height: 1000px;
+	padding: 60px 0;
+	margin-bottom: 100px;
+}
+
+	.section-testimonial .card {
+		margin: 10px;
+	}
+
+	.register-container {
+		height: 900px;
+		width: 100%;
+		background-color: #102B4F;
+}
+	
+	.container-register form input {
+		width: 250px !important;
+		padding: 3px;
+		font-family: arial;
+}
+
+
+
+
+	footer {
+		border: none;
+		margin-top: 200px;
+	}
+
+	.copyright {
+		height: 90px;
+	}
+}
